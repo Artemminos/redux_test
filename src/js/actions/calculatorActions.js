@@ -8,6 +8,15 @@ export const subtractInputs = output => ({
   output: output
 });
 
+export const addPost = post => ({
+  type: 'ADD_POST',
+  post: post
+});
+export const removePost = id => ({
+  type: 'REMOVE_POST',
+  id: id
+});
+
 export const async_addInputs = output => dispatch =>
   new Promise((res, rej) => {
     setTimeout(() => res(output), 3000);

@@ -1,46 +1,37 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
 exports[`>>>H O M E --- Snapshot +++capturing Snapshot of Home 1`] = `
 <div
-  className="container"
->
+  className="container">
   <h2>
     Калькулятор с react и redux
   </h2>
   <input
     onChange={[Function]}
     placeholder="Первое число"
-    type="text"
-  />
+    type="text" />
   <input
     onChange={[Function]}
     placeholder="Второе число"
-    type="text"
-  />
+    type="text" />
   <div>
     Результаты : 
     <span
-      id="output"
-    >
+      id="output">
       10
     </span>
   </div>
   <button
     id="add"
-    onClick={[Function]}
-  >
+    onClick={[Function]}>
     Сложить
   </button>
   <button
     id="subtract"
-    onClick={[Function]}
-  >
+    onClick={[Function]}>
     Вычесть
   </button>
   <button
     id="async_add"
-    onClick={[Function]}
-  >
+    onClick={[Function]}>
     Сложить асинхронно
   </button>
   <hr />

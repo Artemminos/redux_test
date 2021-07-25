@@ -9,6 +9,11 @@ import { addInputs, subtractInputs } from '../src/js/actions/calculatorActions';
 import { createStore } from 'redux';
 import calculatorReducers from '../src/js/reducers/calculatorReducers';
 
+
+
+
+// https://habr.com/ru/post/340514/
+
 // Snapshot for Home React Component
 describe('>>>H O M E --- Snapshot', () => {
   it('+++capturing Snapshot of Home', () => {
